@@ -1,0 +1,11 @@
+[package]
+name = "json-validator"
+version = "1.0.0"
+edition = "2021"
+authors = ["hunter matuse"]
+description = "simple app to validate json files that do not need to end in .json"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serde_json = "1.0"
